@@ -26,7 +26,7 @@ total_wage = total_hours_worked * hourly_wage
 print("----------","\nTotal possible earnings: ",total_wage,"\nTotal earnings so far: ", payment)
 
 while total_minutes_worked > 0:
-    t.sleep(5)
+    t.sleep(60)
 
     payment += minute_wage
 
